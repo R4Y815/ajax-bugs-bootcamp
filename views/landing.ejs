@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/script0.js"></script>  
+
+  <title>LANDING PAGE</title>
+</head>
+<body>
+
+<!-- Create Bug Form -->
+
+  <button type ="button" id="btn1" onclick="displayForm()">
+    Create a bug. 
+  </button>
+  <p></p>
+  <div>
+    <label for="problem" id="probLabel" hidden="true">Problem:</label>
+    <input type="text" name="problem" id="problem" hidden="true"></input>
+  </div>
+  <div>
+    <label for="errorText" id="errorTxtLabel" hidden="true">Error Text:</label>
+    <input type="text" id="errorText" hidden="true"></input>
+  </div>
+  <div>  
+    <label for="commit" id="commitLabel" hidden="true">Commit Code:</label>
+    <input type="text" name="commit" id="commit" hidden="true"></input>
+  </div>
+  <div>
+    <button type="button" id="submit" hidden="true" onclick="submitFormData()">Submit</button>
+  </div>
+  <p id="msg"></p>
+
+<!-- Display Bug List -->
+
+</body>
+</html>
